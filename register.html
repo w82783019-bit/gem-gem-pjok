@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daftar - GEM-GEM PJOK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="register" data-base="">
+<main class="auth-page">
+  <div class="auth-card">
+    <div class="auth-side">
+      <div class="big">🚀</div>
+      <h2>Buat akun siswa</h2>
+      <p>Daftar gratis, pilih avatar, lalu mulai petualangan belajar PJOK-mu.</p>
+    </div>
+    <div class="auth-form">
+      <h1>Daftar</h1>
+      <p class="sub">Isi data berikut dengan benar.</p>
+      <form id="registerForm" novalidate>
+        <label class="field"><span>Nama lengkap</span><input type="text" name="nama" maxlength="50" required></label>
+        <label class="field"><span>Username (huruf, angka, _)</span><input type="text" name="username" autocomplete="username" maxlength="20" required></label>
+        <label class="field"><span>Password (min. 6 karakter)</span><input type="password" name="password" autocomplete="new-password" required></label>
+        <label class="field"><span>Ulangi password</span><input type="password" name="confirm" autocomplete="new-password" required></label>
+        <div class="field"><span>Pilih avatar</span><div class="avatar-picker" id="avatarPicker"></div></div>
+        <p class="form-error" id="formError"></p>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Daftar Sekarang</button>
+      </form>
+      <p class="alt">Sudah punya akun? <a class="link" href="login.html">Masuk</a></p>
+      <p class="alt"><a class="link" href="index.html">← Kembali ke beranda</a></p>
+    </div>
+  </div>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/database.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GEM-GEM PJOK - Game Edukasi Materi Olahraga</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home" data-base="">
+<header class="site-nav">
+  <a class="brand" href="index.html"><span class="brand-logo">🏅</span><span>GEM-GEM <b>PJOK</b></span></a>
+  <div id="navCta" class="btn-row">
+    <a class="btn btn-ghost" href="login.html">Masuk</a>
+    <a class="btn btn-primary" href="register.html">Daftar</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="badge badge-green">Game Edukasi Materi Olahraga</span>
+      <h1>Belajar PJOK jadi <span>seru dan menantang!</span></h1>
+      <p class="lead">Pelajari materi olahraga dan kesehatan, mainkan kuis interaktif, kumpulkan XP, naik level, dan raih badge penghargaan.</p>
+      <div class="btn-row" id="ctaArea">
+        <a class="btn btn-primary btn-lg" href="register.html">🚀 Mulai Belajar</a>
+        <a class="btn btn-ghost btn-lg" href="login.html">Sudah punya akun</a>
+      </div>
+    </div>
+    <div class="hero-art"><span>⚽</span><span>🏀</span><span>🏐</span><span>🏸</span><span>🏃</span><span>🤸</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Kenapa GEM-GEM PJOK?</h2>
+  <p class="sub">Belajar jadi lebih menyenangkan, guru mudah memantau perkembangan.</p>
+  <div class="grid grid-4">
+    <div class="feature-card"><div class="f-ico">📚</div><h3>Materi Lengkap</h3><p>8 kategori materi dengan tujuan, aturan, dan teknik dasar.</p></div>
+    <div class="feature-card"><div class="f-ico">🎮</div><h3>Kuis Interaktif</h3><p>Soal pilihan ganda dengan timer, pembahasan, dan skor otomatis.</p></div>
+    <div class="feature-card"><div class="f-ico">🏆</div><h3>XP, Level, Badge</h3><p>Naik hingga Level 10 dan kumpulkan badge penghargaan.</p></div>
+    <div class="feature-card"><div class="f-ico">📊</div><h3>Pemantauan Guru</h3><p>Admin dapat melihat nilai, progres, grafik, dan laporan siswa.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Kategori Materi</h2>
+  <p class="sub">Pilih cabang olahraga favoritmu.</p>
+  <div class="cats" id="kategoriList"></div>
+</section>
+
+<footer class="site-footer">
+  <p>© GEM-GEM PJOK · Game Edukasi Materi Olahraga</p>
+  <p>Data disimpan di localStorage pada browser dan perangkat ini.</p>
+</footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/database.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/auth.js"></script>
+</body>
+</html>

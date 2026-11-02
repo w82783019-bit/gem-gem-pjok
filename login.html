@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Masuk - GEM-GEM PJOK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="login" data-base="">
+<main class="auth-page">
+  <div class="auth-card">
+    <div class="auth-side">
+      <div class="big">🏅</div>
+      <h2>Selamat datang di GEM-GEM PJOK</h2>
+      <p>Masuk untuk melanjutkan belajar, bermain kuis, dan mengumpulkan XP.</p>
+    </div>
+    <div class="auth-form">
+      <h1>Masuk</h1>
+      <p class="sub">Gunakan akun siswa atau admin.</p>
+      <form id="loginForm" novalidate>
+        <label class="field"><span>Username</span><input type="text" name="username" autocomplete="username" required></label>
+        <label class="field"><span>Password</span><input type="password" name="password" autocomplete="current-password" required></label>
+        <p class="form-error" id="formError"></p>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Masuk</button>
+      </form>
+      <p class="alt">Belum punya akun? <a class="link" href="register.html">Daftar sebagai siswa</a></p>
+      <p class="alt"><a class="link" href="index.html">← Kembali ke beranda</a></p>
+      <div class="demo-box"><b>Akun admin demo</b><br>Username: <code>admin</code> · Password: <code>admin123</code></div>
+    </div>
+  </div>
+</main>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/database.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/auth.js"></script>
+</body>
+</html>
